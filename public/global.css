@@ -77,5 +77,4 @@ body {
   font-weight: 400;
   line-height: 1.75;
   color: var(--textColor);
-  background-image: url('data:image/svg+xml;charset=utf-8,<svg xmlns="http://www.w3.org/2000/svg" width="3" height="3"><circle cx="2" cy="2" r="0.5"/></svg>');
 }

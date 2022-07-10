@@ -18,9 +18,10 @@
   </nav>
 </header>
 <main>
-  <h1><span class="text">Hi, I’m Marius 👋</span></h1>
+  <h1><span class="text">Hi, I’m Marius</span></h1>
   <p>
-    <span class="text">Here are a couple places you can find me online:</span>
+    <span class="text">Here are a couple of places you can find me online:</span
+    >
   </p>
   <ul>
     <li>
