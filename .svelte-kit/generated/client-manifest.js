@@ -5,13 +5,11 @@ export const components = [
 	() => import("../../src/routes/__error.svelte"),
 	() => import("../../src/routes/activity.svelte"),
 	() => import("../../src/routes/index.svelte"),
-	() => import("../../src/routes/resume.svelte"),
-	() => import("../../src/routes/thanks.svelte")
+	() => import("../../src/routes/resume.svelte")
 ];
 
 export const dictionary = {
-	"": [[0, 3], [1]],
-	"activity": [[0, 2], [1]],
-	"resume": [[0, 4], [1]],
-	"thanks": [[0, 5], [1]]
+	"": [[0, 3], [1], 1],
+	"activity": [[0, 2], [1], 1],
+	"resume": [[0, 4], [1]]
 };
