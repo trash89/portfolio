@@ -78,3 +78,43 @@ body {
   line-height: 1.75;
   color: var(--textColor);
 }
+
+main {
+  margin: 1.5rem;
+}
+h1 {
+  font-size: 4rem;
+  margin-bottom: 1.5rem;
+  margin-top: 1.5rem;
+}
+ul {
+  list-style-type: square;
+  padding-left: 1.5rem;
+}
+a {
+  color: inherit;
+}
+a:hover {
+  background-color: lightgrey;
+}
+a.active {
+  background-color: black;
+  color: #fff;
+}
+header {
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+}
+header li {
+  margin: 1.5rem;
+}
+ol {
+  display: flex;
+  list-style-type: none;
+  padding: 0;
+}
+.text {
+  background-color: #fff;
+  color: black;
+  padding: 0;
+}

@@ -1,0 +1,27 @@
+<script>
+  let year = new Date().getFullYear();
+</script>
+
+<footer class="footer">
+  © {year} by <a href="https://github.com/trash89/">trash89</a>. All rights
+  reserved. Built with <a href="https://kit.svelte.dev/">Sveltekit</a>
+</footer>
+
+<style>
+  .footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    width: 100%;
+    height: 1.3rem;
+    background: black;
+    color: white;
+    text-align: center;
+    font-size: 0.75rem;
+    margin: auto;
+  }
+  .footer a {
+    text-decoration: none;
+    color: cyan;
+  }
+</style>
