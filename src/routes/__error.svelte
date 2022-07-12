@@ -1,5 +1,5 @@
 <script>
-  import nf from "../static/not-found.svg";
+  import nf from "../../static/not-found.svg";
 </script>
 
 <div>
