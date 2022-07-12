@@ -11,5 +11,5 @@ export const components = [
 export const dictionary = {
 	"": [[0, 3], [1], 1],
 	"activity": [[0, 2], [1], 1],
-	"resume": [[0, 4], [1]]
+	"resume": [[0, 4], [1], 1]
 };
