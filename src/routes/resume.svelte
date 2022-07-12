@@ -44,7 +44,9 @@
   <article>
     <h3><span class="text">Education</span></h3>
     <h4>
-      <span class="text">September 1992 to June 1997 - Academy of Economic Studies (5 years), Faculty of Accounting and Management Information Systems</span>
+      <span class="text"
+        >September 1992 to June 1997 - Academy of Economic Studies, Bucharest, Romania (5 years), Faculty of Accounting and Management Information Systems</span
+      >
     </h4>
     <div><span class="text">Bs in Accounting and Management Information Systems.</span></div>
   </article>
@@ -62,6 +64,7 @@
     <h3><span class="text">Interests & Leisure Activities</span></h3>
     <div><span class="text">Fishing, reading, bee-keeping.</span></div>
   </article>
+  <br />
 </main>
 
 <style>

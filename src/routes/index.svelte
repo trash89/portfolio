@@ -18,7 +18,7 @@
   <ul>
     {#each links as link}
       <li key={link.link}>
-        <span class="text"><a href={link.link}>{link.text}</a></span>
+        <span class="text"><a href={link.link} target="_blank">{link.text}</a></span>
       </li>
     {/each}
   </ul>

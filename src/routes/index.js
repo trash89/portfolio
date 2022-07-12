@@ -5,13 +5,13 @@ const links = [
 ];
 const infos = [
   {
-    text: "I work most of the time with React/Next, Redux, Svelte/Sveltekit, GraphQL,node/express, Solidity/Hardhat/Brownie and Python and also, like to experiment with other languages(Golang, Rust) and frameworks as well.",
+    text: "I work most of the time with React/Next, Redux, Svelte/Sveltekit, GraphQL,node/express, Solidity/Hardhat/Brownie and Python and also, I like to experiment with other languages(Golang, Rust) and frameworks as well.",
   },
   {
-    text: "With more than 25 years of experience in IT, mainly in database programmer/database administrator roles,  performed also in infrastructure roles, as technical service architect, delivering infrastructure services on data integration technologies (Informatica, Teradata, SAS).",
+    text: "With more than 25 years of experience in IT, mainly in database programming/database administrator roles, I performed also in infrastructure, as a technical service architect, delivering services on data integration technologies (Informatica, Teradata, SAS).",
   },
   {
-    text: "After a pause in my career in 2019, I decided to return as a Web Developer, so I learned the fundamentals of web development and followed trainings in the mentioned technologies.",
+    text: "After a change in my career in 2019, I decided to start a new path as a Web Developer, so I learned the web development and the associated technologies and languages.",
   },
 ];
 export async function get() {
