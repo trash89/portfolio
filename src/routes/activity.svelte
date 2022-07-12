@@ -4,6 +4,10 @@
   export let blockchainapps;
 </script>
 
+<svelte:head>
+  <title>trash89's Activity</title>
+</svelte:head>
+
 <main>
   <h1><span class="text">Activity</span></h1>
 

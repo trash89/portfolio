@@ -3,6 +3,10 @@
   export let infos;
 </script>
 
+<svelte:head>
+  <title>trash89's Portfolio</title>
+</svelte:head>
+
 <main>
   <h1><span class="text">Hi, I'm Marius</span></h1>
   {#each infos as info}

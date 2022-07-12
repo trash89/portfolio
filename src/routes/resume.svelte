@@ -4,6 +4,10 @@
   export let trainings;
 </script>
 
+<svelte:head>
+  <title>trash89's Résumé</title>
+</svelte:head>
+
 <main>
   <h1><span class="text">Résumé</span></h1>
 
