@@ -11,7 +11,7 @@ const infos = [
     text: "With more than 25 years of experience in IT, mainly in database programmer/database administrator roles,  performed also in infrastructure roles, as technical service architect, delivering infrastructure services on data integration technologies (Informatica, Teradata, SAS).",
   },
   {
-    text: "After a pause in my career in 2019, I decided to return as a Web Developer, so I learned the fundamentals of web development and followed training in the mentioned technologies.",
+    text: "After a pause in my career in 2019, I decided to return as a Web Developer, so I learned the fundamentals of web development and followed trainings in the mentioned technologies.",
   },
 ];
 export async function get() {

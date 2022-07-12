@@ -9,52 +9,54 @@
 
   {#each articles as article}
     <article key={article.id}>
-      <h3>{article.h3}</h3>
-      {#if article.h4}
-        <h4>{article.h4}</h4>
+      <h4><span class="text">{article.h4}</span></h4>
+      {#if article.h5}
+        <h5><span class="text">{article.h5}</span></h5>
       {/if}
       {#if article.div1}
-        <div>{article.div1}</div>
+        <div><span class="text">{article.div1}</span></div>
       {/if}
       {#if article.div2}
-        <div>{article.div2}</div>
+        <div><span class="text">{article.div2}</span></div>
       {/if}
       {#if article.div3}
-        <div>{article.div3}</div>
+        <div><span class="text">{article.div3}</span></div>
       {/if}
       {#if article.div4}
-        <div>{article.div4}</div>
+        <div><span class="text">{article.div4}</span></div>
       {/if}
     </article>
   {/each}
   <hr />
   <article>
-    <h3>Training and certifications</h3>
+    <h3><span class="text">Training and certifications</span></h3>
     <ul>
       {#each trainings as training}
-        <li key={training.id}>{training.text}</li>
+        <li key={training.id}><span class="text">{training.text}</span></li>
       {/each}
     </ul>
   </article>
   <hr />
   <article>
-    <h3>Education</h3>
-    <h4>September 1992 to June 1997 - Academy of Economic Studies (5 years), Faculty of Accounting and Management Information Systems</h4>
-    <div>Bs in Accounting and Management Information Systems.</div>
+    <h3><span class="text">Education</span></h3>
+    <h4>
+      <span class="text">September 1992 to June 1997 - Academy of Economic Studies (5 years), Faculty of Accounting and Management Information Systems</span>
+    </h4>
+    <div><span class="text">Bs in Accounting and Management Information Systems.</span></div>
   </article>
   <hr />
   <article>
-    <h3>Language Proficiency</h3>
+    <h3><span class="text">Language Proficiency</span></h3>
     <ul>
-      <li>English : fluent in spoken and written form</li>
-      <li>French : fluent in spoken and written form</li>
-      <li>Romanian : Mother Tongue</li>
+      <li><span class="text">English : fluent in spoken and written form</span></li>
+      <li><span class="text">French : fluent in spoken and written form</span></li>
+      <li><span class="text">Romanian : Mother Tongue</span></li>
     </ul>
   </article>
   <hr />
   <article>
-    <h3>Interests & Leisure Activities</h3>
-    <div>Fishing, reading, bee-keeping.</div>
+    <h3><span class="text">Interests & Leisure Activities</span></h3>
+    <div><span class="text">Fishing, reading, bee-keeping.</span></div>
   </article>
 </main>
 
