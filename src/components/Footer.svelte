@@ -1,10 +1,13 @@
+<script context="module">
+  export const prerender = true;
+</script>
+
 <script>
   let year = new Date().getFullYear();
 </script>
 
 <footer class="footer">
-  © {year} by <a href="https://github.com/trash89/">trash89</a>. All rights
-  reserved. Built with <a href="https://kit.svelte.dev/">Sveltekit</a>
+  © {year} by <a href="https://github.com/trash89/">trash89</a>. All rights reserved. Built with <a href="https://kit.svelte.dev/">Sveltekit</a>
 </footer>
 
 <style>

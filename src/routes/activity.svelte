@@ -3,6 +3,7 @@
 </script>
 
 <script>
+  import { fade } from "svelte/transition";
   export const page = "";
   export let webapplinks;
   export let blockchainapps;
@@ -20,7 +21,7 @@
   </p>
   <ul>
     {#each webapplinks as link}
-      <li key={link.link}>
+      <li key={link.link} in:fade>
         <span class="text"><a href={link.link} target="_blank">{link.title}</a></span>
         <p><span class="text">{link.text1}</span></p>
         <p><span class="text">{link.text2}</span></p>
@@ -34,7 +35,7 @@
   </p>
   <ul>
     {#each blockchainapps as app}
-      <li key={app.link}>
+      <li key={app.link} in:fade>
         <span class="text"><a href={app.link} target="_blank">{app.title}</a></span>
         <p>
           <span class="text">{app.text1}</span>

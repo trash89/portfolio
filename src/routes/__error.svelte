@@ -1,3 +1,7 @@
+<script context="module">
+  export const prerender = true;
+</script>
+
 <script>
   import nf from "../../static/not-found.svg";
 </script>

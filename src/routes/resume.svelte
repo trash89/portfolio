@@ -3,6 +3,7 @@
 </script>
 
 <script>
+  import { fade } from "svelte/transition";
   export const page = "";
   export let articles;
   export let trainings;
@@ -16,7 +17,7 @@
   <h1><span class="text">Résumé</span></h1>
 
   {#each articles as article}
-    <article key={article.id}>
+    <article key={article.id} in:fade>
       <h4><span class="text">{article.h4}</span></h4>
       {#if article.h5}
         <h5><span class="text">{article.h5}</span></h5>
@@ -40,12 +41,12 @@
     <h3><span class="text">Training and certifications</span></h3>
     <ul>
       {#each trainings as training}
-        <li key={training.id}><span class="text">{training.text}</span></li>
+        <li key={training.id} in:fade><span class="text">{training.text}</span></li>
       {/each}
     </ul>
   </article>
   <hr />
-  <article>
+  <article in:fade>
     <h3><span class="text">Education</span></h3>
     <h4>
       <span class="text"
@@ -55,7 +56,7 @@
     <div><span class="text">Bs in Accounting and Management Information Systems.</span></div>
   </article>
   <hr />
-  <article>
+  <article in:fade>
     <h3><span class="text">Language Proficiency</span></h3>
     <ul>
       <li><span class="text">English : fluent in spoken and written form</span></li>
@@ -64,7 +65,7 @@
     </ul>
   </article>
   <hr />
-  <article>
+  <article in:fade>
     <h3><span class="text">Interests & Leisure Activities</span></h3>
     <div><span class="text">Fishing, reading, bee-keeping.</span></div>
   </article>
