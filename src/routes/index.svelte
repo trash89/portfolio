@@ -29,6 +29,6 @@
   </ul>
   <br />
   <p in:fade>
-    <span class="text">...or view <a href="/resume">my résumé.</a></span>
+    <span class="text">...or view <a sveltekit:prefetch href="/resume">my résumé.</a></span>
   </p>
 </main>
