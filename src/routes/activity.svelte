@@ -43,6 +43,7 @@
       </li>
     {/each}
   </ul>
+  <br />
 </main>
 
 <style>

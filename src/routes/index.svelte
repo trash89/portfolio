@@ -31,4 +31,5 @@
   <p in:fade>
     <span class="text">...or view <a sveltekit:prefetch href="/resume">my résumé.</a></span>
   </p>
+  <br />
 </main>
