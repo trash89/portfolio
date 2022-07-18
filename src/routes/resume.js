@@ -125,7 +125,7 @@ const trainings = [
     text: "2002-2003 - Oracle administration certifications - OCP DBA Oracle 8, 8i, 9i",
   },
 ];
-export async function get() {
+export async function GET() {
   return {
     status: 200,
     body: {

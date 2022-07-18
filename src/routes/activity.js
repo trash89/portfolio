@@ -40,7 +40,7 @@ const blockchainapps = [
       "A Fullstack application demonstrating the usual operations. An implementation of an ERC20 token smartcontract with usual actions performed on tokens.",
   },
 ];
-export async function get() {
+export async function GET() {
   return {
     status: 200,
     body: {

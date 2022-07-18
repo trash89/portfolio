@@ -14,7 +14,7 @@ const infos = [
     text: "After a change in my career in 2019, I decided to start a new path as a Web Developer, so I learned the web development and the associated technologies and languages.",
   },
 ];
-export async function get() {
+export async function GET() {
   return {
     status: 200,
     body: {
