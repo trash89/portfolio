@@ -3,7 +3,7 @@
 </script>
 
 <script>
-  import nf from "../../static/not-found.svg";
+  import nf from "../components/not-found.svg";
 </script>
 
 <div>
