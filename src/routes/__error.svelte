@@ -1,8 +1,5 @@
 <script context="module">
   export const prerender = true;
-</script>
-
-<script>
   import nf from "$lib/assets/not-found.svg";
 </script>
 

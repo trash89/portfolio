@@ -1,8 +1,5 @@
 <script context="module">
   export const prerender = true;
-</script>
-
-<script>
   let year = new Date().getFullYear();
 </script>
 
