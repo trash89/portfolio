@@ -9,6 +9,11 @@ const config = {
       allow: [".."],
     },
     port: 3000,
+    open: true,
+    hmr: { overlay: false },
+  },
+  preview: {
+    port: 8080,
   },
 };
 

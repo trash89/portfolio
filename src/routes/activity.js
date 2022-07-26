@@ -9,7 +9,13 @@ const webapplinks = [
     link: "https://journalgraphqlserver.herokuapp.com/",
     title: "Journal GraphQL Server",
     text1: "The GraphQL server used by the Journal Application. Allows to send queries/mutations/subscriptions to a postgres database.",
-    text2: "With GraphQL/Prisma ORM/Apollo-Express/Mysql/Postgres.",
+    text2: "With GraphQL/Prisma ORM/Apollo-Express/Mysql/Postgresql.",
+  },
+  {
+    link: "https://mybooks-trash89.vercel.app/",
+    title: "My Books - online books library",
+    text1: "A Svelte application allowing to keep track of books I have in my personal bibliothéque.",
+    text2: "With Sveltekit/Svelte/Supabase/BootstrapV5/Postgresql.",
   },
 ];
 const blockchainapps = [
