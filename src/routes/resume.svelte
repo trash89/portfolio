@@ -31,9 +31,6 @@
       {#if article.div3}
         <div><span class="text">{article.div3}</span></div>
       {/if}
-      {#if article.div4}
-        <div><span class="text">{article.div4}</span></div>
-      {/if}
     </article>
   {/each}
   <hr />
